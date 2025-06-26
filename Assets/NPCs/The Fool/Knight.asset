@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33c2c6171cf1ed408c9b903539fa9ac, type: 3}
+  m_Name: Knight
+  m_EditorClassIdentifier: 
+  npcName: Knight
+  npcPortrait: {fileID: -1948844389, guid: aa012229dafa23240b6346a8de833763, type: 3}
+  dialogueLines:
+  - You keep walking around...
+  - Do you want something?
+  - Depends.
+  - What are you after? Actually no, I don't want to know. It's you, so it's sure
+    trouble.
+  - Tell you what. I'll help you if you can answer this question.
+  - What is the purpose of the crossguard on a sword?
+  - Fine... What do you want?
+  - The king wasn't mistaken. You really are a fool!
+  - Funny, but no.
+  - Hmm... I recall seeing something on the table in the hall.
+  - But there are so many documents on it I can't say for sure.
+  - I helped enough. Now my only duty is to guard the door.
+  - Ha! You should keep a better watch on it if you don't want people to read it.
+  - I think I saw something on the cabinet, to the right.
+  - I helped enough. Now my only duty is to guard the door.
+  - Let me take a look... Hmmm....
+  - There are four numbers on the left page. Figure out the rest.
+  - I helped enough. Now my only duty is to guard the door.
+  - Aren't you foolish? You think I'd betray my duty?
+  - That being said... There are four symbols. The leaves, the lilies, the roses
+    and the star.
+  - The lilies grow in water. Think about that.
+  - I helped enough. Now my only duty is to guard the door.
+  - How should I know? Do I seem like the brainy type?
+  - But witches on broomsticks? That's ridiculous!
+  - I helped enough. Now my only duty is to guard the door.
+  - Then leave. You've got nothing to do here.
+  autoProgress: 0100010001000000000101000101000101000101010001010000
+  endDialogue: 0000000000000001010000010000010000010000000100000101
+  autoProgressDelay: 1.5
+  typingSpeed: 0.05
+  typingSound: {fileID: 8300000, guid: 71cd70afcdba099469d9b3c68c70df8d, type: 3}
+  voicePitch: 0.2
+  choices:
+  - dialogueIndex: 1
+    choices:
+    - Hmm... Could you help me with something?
+    - Nevermind...
+    nextDialogueIndex: 0200000019000000
+  - dialogueIndex: 5
+    choices:
+    - 'To decorate the sword with jewels.  '
+    - To protect the wielder's hand from sliding onto the blade.
+    - 'To make the sword lighter for faster swings.  '
+    nextDialogueIndex: 070000000600000008000000
+  - dialogueIndex: 6
+    choices:
+    - I seem to have lost the key to my room. Know something about that?
+    - Have you seen a journal around?
+    - What is the chest code?
+    - The symbols on the door? The wizard doesn't need to know ;)
+    - Who tells the truth?
+    - Nevermind...
+    nextDialogueIndex: 090000000c0000000f000000120000001600000019000000

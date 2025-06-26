@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33c2c6171cf1ed408c9b903539fa9ac, type: 3}
+  m_Name: Chest False 2
+  m_EditorClassIdentifier: 
+  npcName: Chest
+  npcPortrait: {fileID: -2000817078, guid: 2e25776758f491f479b08b347eda6cac, type: 3}
+  dialogueLines:
+  - Witches were officially licensed by the king to cast spells.
+  - ... I forgot.
+  - Wise choice!
+  - Something is missing.
+  - ...
+  autoProgress: 0000000000
+  endDialogue: 0001010101
+  autoProgressDelay: 1.5
+  typingSpeed: 0.05
+  typingSound: {fileID: 8300000, guid: c928c0f06511e2444b34280a56b65f5a, type: 3}
+  voicePitch: 1
+  choices:
+  - dialogueIndex: 0
+    choices:
+    - True.
+    - False.
+    nextDialogueIndex: 0100000002000000

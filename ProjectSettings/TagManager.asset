@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Audio
+  - Door
+  - Interactable
+  - BookPanel
+  - InventoryCanvas
+  - MapPanel
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Particles
+  - NoEffects
+  - Ground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 717552367
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 2743470373
+    locked: 0
+  - name: Walls
+    uniqueID: 3870610255
+    locked: 0
+  - name: Doors
+    uniqueID: 1191369343
+    locked: 0
+  - name: Windows
+    uniqueID: 2811621529
+    locked: 0
+  - name: Banners
+    uniqueID: 2296031455
+    locked: 0
+  - name: Torches
+    uniqueID: 2093036529
+    locked: 0
+  - name: Boxes
+    uniqueID: 3049611573
+    locked: 0
+  - name: Wardrobes
+    uniqueID: 2197013633
+    locked: 0
+  - name: Chests
+    uniqueID: 3109663371
+    locked: 0
+  - name: Knight
+    uniqueID: 2242498373
+    locked: 0
+  - name: Tables
+    uniqueID: 1684660271
+    locked: 0
+  - name: Interaction Puzzles
+    uniqueID: 1643109139
+    locked: 0
+  - name: Player
+    uniqueID: 4288362393
+    locked: 0
+  - name: Particles
+    uniqueID: 2746737371
+    locked: 0
+  - name: Pillars
+    uniqueID: 1453717351
+    locked: 0
+  - name: Pillar Torches
+    uniqueID: 3593170373
+    locked: 0
